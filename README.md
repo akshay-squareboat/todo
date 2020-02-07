@@ -1,3 +1,3 @@
 # todo
 
-This is the new project in nodejs
+This is the new project in Nodejs
