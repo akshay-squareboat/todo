@@ -21,7 +21,7 @@ else {
   console.log('Db connected');
 }
 
-var port = process.env.PORT || 3002;
+var port = process.env.PORT || 3006;
 
 app.get('/', (req, res) => res.send('Hello World with Express'));
 
