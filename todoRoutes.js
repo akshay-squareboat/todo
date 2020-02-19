@@ -31,7 +31,7 @@ function test(req,res,next) {
 }
 
 router.route('/todo')
-     .get(test,todoController.index)
+     .get(todoController.index)
      .post(todoController.new)
 
 module.exports = router
